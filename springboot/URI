@@ -1,0 +1,22 @@
+#register
+localhost:8191/register
+{
+	"fname":"Vitthal",
+	"lname":"jadhav",
+	"gmail":"jadhav.vitthal25@gmail.com",
+	"address":"PUNE",
+	"pwd":"12345"
+}
+
+
+#Login
+localhost:8191/authenticate
+{
+	"username":"jadhav.vitthal25@gmail.com",
+	"password":"Iz@12345"
+}
+-this api can be use after login
+#Home
+localhost:8191/hello
+
+ket- Authorization           value -Token 
